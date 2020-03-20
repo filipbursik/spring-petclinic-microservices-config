@@ -50,7 +50,7 @@ management:
       elastic:
         enabled: true
         step: 1m
-        index: metrics
+        index: test
         host: http://localhost:9200
         auto-create-index: true
 
