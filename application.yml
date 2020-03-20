@@ -48,6 +48,7 @@ management:
   metrics:
     export:
       elastic:
+        host: http://docker-elk_elasticsearch_1:9200
         enabled: true
         step: 1m
         index: test
