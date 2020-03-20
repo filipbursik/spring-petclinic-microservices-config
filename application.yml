@@ -39,7 +39,7 @@ management:
   endpoint:
     metrics:
       enabled: true
-    prometheus:
+    elastic:
       enabled: true
   endpoints:
     web:
@@ -47,7 +47,7 @@ management:
         include: '*'
   metrics:
     export:
-      prometheus:
+      elastic:
         enabled: true
 
 ---
